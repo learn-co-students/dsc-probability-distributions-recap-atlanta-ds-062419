@@ -1,5 +1,5 @@
 
-# Probability Distributions - A Recap 
+# Probability Distributions - a Recap 
 
 ## Introduction
 
