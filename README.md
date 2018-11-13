@@ -10,7 +10,7 @@ You will be able to:
 
 * Describe the probability functions for Uniform, Exponential, Normal and Poisson distributions
 
-* Generate data and plot a number of distributions using SciPy and Numpy. 
+* Generate data and plot a number of distributions using SciPy and Numpy
 
 ## Representing distributions
 
