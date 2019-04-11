@@ -47,7 +47,7 @@ plt.show()
 ```
 
 
-![png](index_files/output_3_0.png)
+![png](index_files/index_3_0.png)
 
 
 We can see that there is an equal chance of any given value or range of values occurring in that data.  Unlike the normal distribution with concentration of values near the mean, a uniform distribution has equal probability across any given value within the range that you define.(-10 to 10 in this case. We can normalize the values in the histogram above to see the probability of these values which will be almost equal to 0.05.
@@ -63,7 +63,7 @@ plt.show()
 ```
 
 
-![png](index_files/output_5_0.png)
+![png](index_files/index_5_0.png)
 
 
 ## Gaussian Distributions
@@ -95,7 +95,7 @@ plt.plot(x, norm.pdf(x))
 
 
 
-![png](index_files/output_7_1.png)
+![png](index_files/index_7_1.png)
 
 
 Here, we are creating a list of x values for plotting that range between -3 and 3 with an
@@ -120,7 +120,7 @@ plt.show()
 ```
 
 
-![png](index_files/output_9_0.png)
+![png](index_files/index_9_0.png)
 
 
 It does look more or less like a normal distribution, but since there is a random element, it's not going to
@@ -142,7 +142,7 @@ sns.kdeplot(values)
 
 
 
-![png](index_files/output_11_1.png)
+![png](index_files/index_11_1.png)
 
 
 We can further inspect cumulative Density functions (CDFs) for a given normal dataset in seaborn as shown below:
@@ -163,7 +163,7 @@ sns.distplot(values,
 
 
 
-![png](index_files/output_13_1.png)
+![png](index_files/index_13_1.png)
 
 
 ## Exponential Distribution
@@ -198,7 +198,7 @@ plt.plot(x, expon.pdf(x))
 
 
 
-![png](index_files/output_15_1.png)
+![png](index_files/index_15_1.png)
 
 
 ## Poisson Distribution
@@ -239,7 +239,7 @@ plt.axvline(550, color= 'g')
 
 
 
-![png](index_files/output_17_1.png)
+![png](index_files/index_17_1.png)
 
 
 So this shows a very low probability , the odds of seeing 550 visitors on a given day, it turns out, comes out to about 0.002 or 0.2% probability.
