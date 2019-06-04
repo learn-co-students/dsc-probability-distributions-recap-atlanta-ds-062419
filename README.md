@@ -145,7 +145,7 @@ sns.kdeplot(values)
 ![png](index_files/index_11_1.png)
 
 
-We can further inspect cumulative Density functions (CDFs) for a given normal dataset in seaborn as shown below:
+We can further inspect cumulative Distribution functions (CDFs) for a given normal dataset in seaborn as shown below:
 
 
 
