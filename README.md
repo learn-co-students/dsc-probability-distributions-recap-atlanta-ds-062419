@@ -31,7 +31,7 @@ Mean of uniform distribution is $\dfrac{b+a}{2}$, and the variance is $V = \dfra
 
 We can create a uniform distribution by using the NumPy `random.uniform` function. Following code
 says, 
-> We want 100000 uniformly distributed random set of values that ranges between -10 and 1.
+> We want 100000 uniformly distributed random set of values that ranges between -10 and 10.
 
 We then create a histogram of those values, Here is what it looks like:
 
