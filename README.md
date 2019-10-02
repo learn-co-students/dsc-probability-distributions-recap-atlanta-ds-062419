@@ -14,7 +14,7 @@ You will be able to:
 
 ## Representing distributions
 
-There are many ways to represent a probability distribution, we have seen probability mass functions for discrete data, or PMFs, and Probability Density Functions (PDFs), for continuous data. These function map from each possible outcome to its probability. PMF/PDF are among several representations of a distribution. Other representations include the cumulative distribution function (CDF).
+There are many ways to represent a probability distribution, we have seen probability mass functions for discrete data, or PMFs, and Probability Density Functions (PDFs), for continuous data. These functions map from each possible outcome to its probability. PMF/PDF are among several representations of a distribution. Other representations include the cumulative distribution function (CDF).
 
 Let's revise some popular distributions along with distribution functions and implementation/visualizations in python 
 
@@ -100,7 +100,7 @@ plt.plot(x, norm.pdf(x))
 
 Here, we are creating a list of x values for plotting that range between -3 and 3 with an
 increment of 0.001 in between them by using the `arange` function. These are the x values on the graph and
-we plotted the x-axis with using those values. 
+we plotted the x-axis using those values. 
 
 The y-axis is the normal function, `norm.pdf`, i.e., the PDF for a normal distribution, on the x values.
 
